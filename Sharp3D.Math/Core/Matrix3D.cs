@@ -113,19 +113,19 @@ namespace Sharp3D.Math.Core
 		private Matrix3D(SerializationInfo info, StreamingContext context)
 		{
 			// Get the first row
-			_m11 = info.GetSingle("M11");
-			_m12 = info.GetSingle("M12");
-			_m13 = info.GetSingle("M13");
+            _m11 = info.GetDouble("M11");
+            _m12 = info.GetDouble("M12");
+            _m13 = info.GetDouble("M13");
 
 			// Get the second row
-			_m21 = info.GetSingle("M21");
-			_m22 = info.GetSingle("M22");
-			_m23 = info.GetSingle("M23");
+            _m21 = info.GetDouble("M21");
+            _m22 = info.GetDouble("M22");
+            _m23 = info.GetDouble("M23");
 
 			// Get the third row
-			_m31 = info.GetSingle("M31");
-			_m32 = info.GetSingle("M32");
-			_m33 = info.GetSingle("M33");
+            _m31 = info.GetDouble("M31");
+            _m32 = info.GetDouble("M32");
+            _m33 = info.GetDouble("M33");
 		}
 		#endregion
 

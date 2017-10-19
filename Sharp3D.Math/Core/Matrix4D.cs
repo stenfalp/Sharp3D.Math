@@ -121,28 +121,28 @@ namespace Sharp3D.Math.Core
 		private Matrix4D(SerializationInfo info, StreamingContext context)
 		{
 			// Get the first row
-			_m11 = info.GetSingle("M11");
-			_m12 = info.GetSingle("M12");
-			_m13 = info.GetSingle("M13");
-			_m14 = info.GetSingle("M14");
+            _m11 = info.GetDouble("M11");
+            _m12 = info.GetDouble("M12");
+            _m13 = info.GetDouble("M13");
+            _m14 = info.GetDouble("M14");
 
 			// Get the second row
-			_m21 = info.GetSingle("M21");
-			_m22 = info.GetSingle("M22");
-			_m23 = info.GetSingle("M23");
-			_m24 = info.GetSingle("M24");
+            _m21 = info.GetDouble("M21");
+            _m22 = info.GetDouble("M22");
+            _m23 = info.GetDouble("M23");
+            _m24 = info.GetDouble("M24");
 
 			// Get the third row
-			_m31 = info.GetSingle("M31");
-			_m32 = info.GetSingle("M32");
-			_m33 = info.GetSingle("M33");
-			_m34 = info.GetSingle("M34");
+            _m31 = info.GetDouble("M31");
+            _m32 = info.GetDouble("M32");
+            _m33 = info.GetDouble("M33");
+            _m34 = info.GetDouble("M34");
 		
 			// Get the fourth row
-			_m41 = info.GetSingle("M41");
-			_m42 = info.GetSingle("M42");
-			_m43 = info.GetSingle("M43");
-			_m44 = info.GetSingle("M44");
+            _m41 = info.GetDouble("M41");
+            _m42 = info.GetDouble("M42");
+            _m43 = info.GetDouble("M43");
+            _m44 = info.GetDouble("M44");
 		}
 		#endregion
 

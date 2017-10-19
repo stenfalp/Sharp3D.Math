@@ -105,12 +105,12 @@ namespace Sharp3D.Math.Core
 		private Matrix2D(SerializationInfo info, StreamingContext context)
 		{
 			// Get the first row
-			_m11 = info.GetSingle("M11");
-			_m12 = info.GetSingle("M12");
+            _m11 = info.GetDouble("M11");
+            _m12 = info.GetDouble("M12");
 
 			// Get the second row
-			_m21 = info.GetSingle("M21");
-			_m22 = info.GetSingle("M22");
+            _m21 = info.GetDouble("M21");
+            _m22 = info.GetDouble("M22");
 		}
 		#endregion
 
