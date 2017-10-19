@@ -283,8 +283,6 @@
     <Compile Include="Random\RandomUtils.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Content Include="ChangeLog.xml" />
-    <Content Include="ChangeLog.xslt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="stenfalp.pfx" />
