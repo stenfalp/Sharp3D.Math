@@ -101,9 +101,9 @@ namespace Sharp3D.Math.Core
 		/// <param name="context">The contextual information about the source or destination.</param>
 		private Vector3D(SerializationInfo info, StreamingContext context)
 		{
-			_x = info.GetSingle("X");
-			_y = info.GetSingle("Y");
-			_z = info.GetSingle("Z");
+			_x = info.GetDouble("X");
+            _y = info.GetDouble("Y");
+            _z = info.GetDouble("Z");
 		}
 		#endregion
 
