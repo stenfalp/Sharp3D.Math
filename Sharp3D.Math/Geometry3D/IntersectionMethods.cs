@@ -318,7 +318,7 @@ namespace Sharp3D.Math.Geometry3D
 			int sign1 = (int)plane.GetSign(segment.P1);
 
 			// Intersection occurs if the 2 endpoints are at oposite sides of the plane.
-			return ( ((sign0 > 0) && (sign1 < 0)) || ((sign0 < 0) && (sign0 > 0)) );
+			return ( ((sign0 > 0) && (sign1 < 0)) || ((sign0 < 0) && (sign1 > 0)) );
 		}
 
 
